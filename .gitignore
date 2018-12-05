@@ -1,0 +1,68 @@
+/target/
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+
+# Operating System Files
+*.DS_Store
+Thumbs.db
+
+# Build Files #
+bin
+target
+build/
+.gradle
+*/target/*
+
+# Eclipse Project Files #
+.classpath
+.project
+.settings
+.metadata
+.metadata/*
+.recommenders/*
+*/.tern-project
+
+
+# STS Project Files #
+.springBeans
+
+# IntelliJ IDEA Files #
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# NetBeans Project Files #
+nbactions.xml
+nb-configuration.xml
+
+# Spring Roo
+log.roo
+
+# PMD
+.pmd
+
+# Node
+node_modules
+bundle.js
