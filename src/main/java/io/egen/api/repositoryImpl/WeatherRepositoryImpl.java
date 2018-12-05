@@ -13,7 +13,7 @@ import io.egen.entity.WeatherInfo;
 
 @Repository
 public class WeatherRepositoryImpl implements WeatherRepository {
-	
+
 	@PersistenceContext
 	private EntityManager em;
 
